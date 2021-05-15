@@ -1,0 +1,86 @@
+@font-face {
+    font-family: DM Serif Display, serif;
+    src: url('https://fonts.googleapis.com/css2? family = DM + Serif + Display: ital @ 1 & display = swap');
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;;
+    src: url ('https://fonts.googleapis.com/css2? family = DM + Serif + Display: ital @ 1 & family = Roboto: wght @ 300 & display = swap');
+}
+
+
+.tituloApoio {
+    font-family: DM Serif Display, serif;
+    text-align: center;    
+    font-style: italic;
+    font-weight:bolder;
+    font-size: 48px;
+    line-height: 66px;    
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: stretch;
+}
+
+.subTituloApoio {
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    height: 91px;
+    width: 248px;
+    left: 240px;
+    top: 1601px;
+}
+
+.textoApoio {
+    height: 126px;
+    width: 343px;
+    left: 240px;
+    top: 1722px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    color: #7A7A7A;
+}
+
+.link {
+    display:inline;
+}
+
+a:link { 
+ text-decoration:none; 
+} 
+
+.linkApoio {   
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #4CC0B6;
+}
+
+.imgVoluntario {
+    margin: 6px 12px;
+    border-radius: 16px;
+}
+
+.voluntarios {      
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+.voluntarios p {
+    margin: 4px;
+}
